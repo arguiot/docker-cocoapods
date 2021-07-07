@@ -7,7 +7,7 @@ Build context for a CocoaPods docker container.
 ### Use image from registry
 
 ```
-docker run --rm -v `pwd`:/project -w /project gaetan/cocoapods:latest pod init
+docker run --rm -v `pwd`:/project -w /project arguiot/cocoapods:latest pod init
 ```
 
 ### Build image
